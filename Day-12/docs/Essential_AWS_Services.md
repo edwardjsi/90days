@@ -1,6 +1,3 @@
-Here’s a clean, interview-ready **README.md** you can drop straight into your repo for **Day 12** 👇
-(Structured, practical, and very “DevOps-mature” in tone.)
-
 ---
 
 # Day 12 – Essential AWS Services for DevOps Engineers
