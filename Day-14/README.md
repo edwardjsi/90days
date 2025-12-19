@@ -1,4 +1,4 @@
-# Day 15 – Ansible Zero to Hero (Ad-Hoc Commands & Inventory)
+# Day 14 – Ansible Zero to Hero (Ad-Hoc Commands & Inventory)
 
 ## Goal
 
