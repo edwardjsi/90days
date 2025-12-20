@@ -1,0 +1,22 @@
+---
+# Ansible Playbook to install and start Nginx
+# NOTE: gather_facts runs first by default and is required
+# to collect OS, memory, and network information from the target hosts.
+
+- name: Install and start Nginx using Ansible Playbook
+  hosts: web_servers
+  become: yes
+  gather_facts: yes
+
+  tasks:
+    - name: Install Nginx
+      apt:
+        name: nginx
+        state: present
+        update_cache: yes
+
+    - name: Start and enable Nginx service
+      service:
+        name: nginx
+        state: started
+        enabled: yes
